@@ -7,8 +7,8 @@ Fué desarrollada en la Universidad Nacional de Colombia como
 proyecto de grado de Ingeniería de Sistemas. Cualquier inquietud o
 sugerencia puede ser dirigida a sus autores.
 
-	Jonatan G—mez : jgomezpe@unal.edu.co
-	Fabio Gonz‡lez : fagonzalezo@unal.edu.co
+	Jonatan Gómez : jgomezpe@unal.edu.co
+	Fabio González : fagonzalezo@unal.edu.co
 	    
 
 
