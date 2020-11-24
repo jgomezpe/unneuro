@@ -3,12 +3,12 @@
 UN_Neuro es una herramienta que facilita el diseño, entrenamiento
 y simulación de redes neuronales, está hecha para MS-Windows 3.1.
 
-Fue desarrollada en la Universidad Nacional de Colombia como 
+Fué desarrollada en la Universidad Nacional de Colombia como 
 proyecto de grado de Ingeniería de Sistemas. Cualquier inquietud o
 sugerencia puede ser dirigida a sus autores.
 
-	Jonatan G—ómez : jgomezpe@unal.edu.co
-	Fabio Gonzá‡lez : fagonzalezo@unal.edu.co
+	Jonatan G—mez : jgomezpe@unal.edu.co
+	Fabio Gonz‡lez : fagonzalezo@unal.edu.co
 	    
 
 
