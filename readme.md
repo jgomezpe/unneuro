@@ -1,121 +1,82 @@
-A. UN_Neuro
+<h2>UN_Neuro</h2>
 
-UN_Neuro es una herramienta que facilita el diseño, entrenamiento
-y simulación de redes neuronales, está hecha para MS-Windows 3.1.
+<h3>Introducción</h3>
+UN_Neuro es una herramienta que facilita el diseño, entrenamiento y simulación de redes neuronales, está hecha para MS-Windows 3.1.
 
-Fue desarrollada en la Universidad Nacional de Colombia en los años 1992-1993, como 
-proyecto de grado de Ingeniería de Sistemas. Cualquier inquietud o
-sugerencia puede ser dirigida a sus autores.
+Fue desarrollada en la Universidad Nacional de Colombia en los años 1992-1993, como proyecto de grado de Ingeniería de Sistemas. Cualquier inquietud o sugerencia puede ser dirigida a sus autores.
 
-	Jonatan Gómez : jgomezpe@unal.edu.co
-	Fabio González : fagonzalezo@unal.edu.co
+ Jonatan Gómez : jgomezpe@unal.edu.co
+ Fabio González : fagonzalezo@unal.edu.co
 	    
 
 
-                       B. MANUAL DEL USUARIO
+<h3>B. MANUAL DEL USUARIO</h3>
 
-B.1 INTRODUCCION
+<h4>B.1 INTRODUCCION</h4>
 
 UN-Neuro es un prototipo de herramienta para el diseño,
 entrenamiento y simulación de redes neuronales.
 
-B.1.1 Como Instalar UN-Neuro
+<h5>B.1.1 Como Instalar UN-Neuro</h5>
 El disco flexible con UN-Neuro contiene un programa ejecutable
 que instala UN-Neuro, si la unidad donde se encuentra el disco
 flexible, corresponde a la unidad A:, digite ' win A:\UNNEURO '.
 Esto activará un programa de instalación.
 
-B.1.2 Requerimientos de hardware y software
-- Para trabajar con UN-Neuro debe tener MicroSoft Windows 3.1
-instalado en su computador.
-- 2 Megabytes de memoria principal (Preferiblemente 4 Megabytes)
-- 3 Megabyte en disco duro.
-- Se recomienda el uso de una pantalla a color.
-- Es indispensable el uso de un ratón.
-- Se recomienda el uso de un coprocesador matemático y un
-procesador 80386 o superior.
-B.1.3 Uso de UN-Neuro
-Para trabajar con UN-Neuro usted debe conocer cómo trabajar en
-Windows, si no ha trabajado en Windows consulte la guía del
-usuario Windows.
+<h5>B.1.2 Requerimientos de hardware y software</h5>
+<ul>
+<li>Para trabajar con UN-Neuro debe tener MicroSoft Windows 3.1 instalado en su computador.</li>
+<li>2 Megabytes de memoria principal (Preferiblemente 4 Megabytes)</li>
+<li>3 Megabyte en disco duro.</li>
+<li>Se recomienda el uso de una pantalla a color.</li>
+<li>Es indispensable el uso de un ratón.</li>
+<li>Se recomienda el uso de un coprocesador matemático y un procesador 80386 o superior.</li>
+</ul>
 
-UN-Neuro al instalar genera un grupo Windows llamado UN-Neuro,
-presione rápidamente dos veces el botón izquierdo del ratón en el
-grupo UN-Neuro, y aparecerá la ventana mostrada en la ilustración
-1.
+<h5>B.1.3 Uso de UN-Neuro</h5>
+Para trabajar con UN-Neuro usted debe conocer cómo trabajar en Windows, si no ha trabajado en Windows consulte la guía del usuario Windows.
 
-En esta ventana aparecen tres íconos con los nombres UN-
-NeuroEditor, UN-NeuroEntrenador, UN-NeuroSimulador.
+UN-Neuro al instalar genera un grupo Windows llamado UN-Neuro, presione rápidamente dos veces el botón izquierdo del ratón en el grupo UN-Neuro, y aparecerá la ventana mostrada en la ilustración 1.
 
-UN-NeuroEditor es el módulo de edición y diseño gráfico de redes
-neuronales.
+En esta ventana aparecen tres íconos con los nombres UN-NeuroEditor, UN-NeuroEntrenador, UN-NeuroSimulador.
 
-UN-NeuroEntrenador es el módulo de entrenamiento de redes
-neuronales.
+UN-NeuroEditor es el módulo de edición y diseño gráfico de redes neuronales.
+
+UN-NeuroEntrenador es el módulo de entrenamiento de redes neuronales.
 
 UN-NeuroSimulador es el módulo de simulación de redes neuronales.
 
 Para entrar a cada modulo presione rápidamente dos veces el botón
 izquierdo del ratón en el ícono del módulo.
 
-B.1.4 Pasos para la realización de una aplicación de redes
-neuronales
-La realización de una aplicación de redes neuronales implica la
-utilización de los tres módulos. Aunque no se tiene un orden
-predefinido para el uso de los módulos, la secuencia típica de
-pasos para el empleo de los mismos es:
+<h5>B.1.4 Pasos para la realización de una aplicación de redes neuronales</h5>
 
-A. Diseñar y construir la red neuronal usando UN-NeuroEditor,
-guardándola en un archivo de disco.
+La realización de una aplicación de redes neuronales implica la utilización de los tres módulos. Aunque no se tiene un orden
+predefinido para el uso de los módulos, la secuencia típica de pasos para el empleo de los mismos es:
 
-B. Crear un archivo que contenga los patrones con los cuales se
-va a entrenar la red. Para esto se puede utilizar cualquier
-editor de texto (formato ASCII). Opcionalmente se puede crear
-otro archivo de patrones con el cual se realiza el cálculo del
-error de generalización durante el entrenamiento.
+<ul>
+<li>Diseñar y construir la red neuronal usando UN-NeuroEditor, guardándola en un archivo de disco.</li>
 
-C. Utilizar UN-NeuroEntrenador, cargando la red generada por UN-
-NeuroEditor, así como los patrones creados en el paso anterior.
-Se debe especificar el algoritmo de entrenamiento. Después de
-terminado el entrenamiento se debe guardar la red en un archivo
-de disco.
+<li>Crear un archivo que contenga los patrones con los cuales se va a entrenar la red. Para esto se puede utilizar cualquier editor de texto (formato ASCII). Opcionalmente se puede crear otro archivo de patrones con el cual se realiza el cálculo del error de generalización durante el entrenamiento.</li>
 
-D. Simular la red que fue almacenada en un archivo en disco en el
-paso anterior, utilizando UN-NeuroSimulador.
-   
+<li>Utilizar UN-NeuroEntrenador, cargando la red generada por UN-NeuroEditor, así como los patrones creados en el paso anterior. Se debe especificar el algoritmo de entrenamiento. Después de terminado el entrenamiento se debe guardar la red en un archivo de disco.</li>
 
+<li>Simular la red que fue almacenada en un archivo en disco en el paso anterior, utilizando UN-NeuroSimulador.</li>
+</ul>
 
+<h4>B.2 USANDO UN-NeuroEditor</h4>
 
-B.2 USANDO UN-NeuroEditor
+UN-NeuroEditor es el módulo de edición y diseño de redes neuronales, en el cual se pueden tener a la vez varias redes en edición, cada una en una ventana diferente. Esta ventana tiene una barra de menús con los siguientes submenús:
 
-UN-NeuroEditor es el módulo de edición y diseño de redes
-neuronales, en el cual se pueden tener a la vez varias redes en
-edición, cada una en una ventana diferente.
+<h5>B.2.1 Sumario de comandos</h5>
 
-Cuando usted entra a UN-NeuroEditor encuentra la ventana de la
-ilustración 2.
+<b>Archivos:</b> Permite realizar las operaciones de disco disponibles en la aplicación como cargar, guardar, incluir, etc..
 
-Esta ventana tiene una barra de menús con los siguientes
-submenús:
-
-B.2.1 Sumario de comandos
-Archivos:
-Permite realizar las operaciones de disco disponibles en la
-aplicación como cargar, guardar, incluir, etc..
 Las opciones del menú son:
 
- Nueva:   Abre una ventana en blanco, para editar una red
-          neuronal nueva (sin nombre). El efecto de este comando
-          se puede apreciar en la ilustración 3.
+ <b>Nueva:</b> Abre una ventana en blanco, para editar una red neuronal nueva (sin nombre). El efecto de este comando se puede apreciar en la ilustración 3.
 
- Cargar:  Carga una red neuronal almacenada en un archivo en
-          disco en una ventana con el nombre del archivo
-          especificado. Primero seleccione esta opción con lo
-          cual aparecerá una caja de diálogos en la que puede
-          especificar el nombre del archivo. Al ejecutar este
-          comando aparecerá una ventana conteniendo la red
-          neuronal especificada, como lo muestra la ilustración
-          4.
+ <b>Cargar:</b> Carga una red neuronal almacenada en un archivo en disco en una ventana con el nombre del archivo especificado. Primero seleccione esta opción con lo cual aparecerá una caja de diálogos en la que puede especificar el nombre del archivo. Al ejecutar este comando aparecerá una ventana conteniendo la red neuronal especificada, como lo muestra la ilustración 4.
 
  Guardar: Almacena la red neuronal de la ventana activa en un
           archivo en disco. Si la red neuronal que desea guardar
